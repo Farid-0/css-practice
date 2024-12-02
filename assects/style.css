@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 100vh;
+}
+
+
+.panel-wrapper{
+    position: relative;
+}
+
+.center {
+	width: 150px;
+	height: 150px;
+	background-color: tomato;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 16px;
+}
+
+.panel {
+	width: 150px;
+	height: 150px;
+	background: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 10px;
+    position: absolute;
+}
+
+.panel.one {
+    bottom: 149px;
+  }
+  .panel.two {
+    left: 180px;
+    bottom: 95px;
+  }
+  .panel.three {
+    left: 240px;
+    bottom: -68px;
+  }
+  .panel.four {
+    bottom: 50p;
+    top: 87px;
+    left: 180px;
+  }
+  .panel.five {
+    top: 143px;
+  }
+  .panel.six {
+    right: 30px;
+    top: 88px;
+  }
+  .panel.seven {
+    right: 84px;
+    bottom: -65px;
+  }
+  .panel.eight {
+    right: 29px;
+    bottom: 95px;
+  }
